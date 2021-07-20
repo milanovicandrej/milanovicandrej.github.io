@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
-    font-family: 'Ubuntu' , sans-serif;
     min-height: 100px;
 }
 
@@ -16,5 +15,5 @@ body{
 }
 
 footer{
-    margin-bottom: 0px;
+    margin-bottom: px;
 }
