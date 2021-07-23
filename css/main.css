@@ -14,17 +14,12 @@ footer{
     min-height: 100px;
 }
 
-#text-anim{
+#welcome{
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-#user {
-    animation: fadeInAnimation ease 0.7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
