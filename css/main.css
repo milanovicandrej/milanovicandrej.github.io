@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-body{
-    min-height: 100px;
-}
-
 #welcome{
-    padding-top: 100px;
-    padding-bottom: 100px;  
+    padding-top: 4rem;
+    padding-bottom: 4rem;  
 }
 
 #skills{
@@ -15,5 +11,30 @@ body{
 }
 
 footer{
-    margin-bottom: px;
+    min-height: 100px;
+}
+
+#text-anim{
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#user {
+    animation: fadeInAnimation ease 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+ul{
+   list-style-type: none;
+   padding-left: 0px; 
 }
