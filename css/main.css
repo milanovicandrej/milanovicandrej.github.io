@@ -2,7 +2,8 @@
 
 #welcome{
     padding-top: 4rem;
-    padding-bottom: 4rem;  
+    padding-bottom: 0rem;
+    min-height: 100vh;  
 }
 
 #skills{
