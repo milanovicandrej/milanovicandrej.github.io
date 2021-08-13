@@ -29,7 +29,15 @@ footer{
     }
 }
 
-ul{
-   list-style-type: none;
-   padding-left: 0px; 
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li{
+    width: 24px;
+    float: left;
+    margin: 5px;
 }
