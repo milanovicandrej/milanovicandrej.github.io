@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 #welcome{
-    padding-top: 4rem;
-    padding-bottom: 0rem;
     min-height: 100vh;  
 }
 
@@ -15,7 +13,7 @@ footer{
     min-height: 100px;
 }
 
-#welcome{
+#welcomeAnimation{
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
